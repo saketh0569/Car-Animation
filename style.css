@@ -36,7 +36,7 @@ body{
     animation: carmove linear 7s infinite;
 }
 
-#car{
+#car1{
     height: 15vh;
     width: 24vw;
     background: url(car_body.png) repeat-x;
@@ -44,6 +44,17 @@ body{
     position: absolute;
     left: 20vw;
     bottom: 30vh;
+    animation: shake linear 2s infinite;
+}
+
+#car2{
+    height: 15vh;
+    width: 24vw;
+    background: url(car_body.png) repeat-x;
+    background-size: cover;
+    position: absolute;
+    left: 39vw;
+    bottom: 10vh;
     animation: shake linear 2s infinite;
 }
 
